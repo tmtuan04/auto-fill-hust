@@ -1,6 +1,8 @@
 # Hướng dẫn sử dụng
 
-- Bước 1: Clone về https://github.com/tmtuan04/auto-fill-hust.git
+- Bước 1: Tải file .zip của dự án về rồi giải nén
+
+  ![image](https://github.com/user-attachments/assets/f0ff90f2-c080-4916-a59e-ad60cf496467)
 
 - Bước 2: Truy cập chrome://extensions/, sau đó ấn **Tải tiện ích đã giải nén**
 
