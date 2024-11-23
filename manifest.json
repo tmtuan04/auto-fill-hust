@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2, 
+    "name": "Auto Fill Form HUST Extension",
+    "version": "1.0",
+    "description": "Extension to auto-fill DRL form for HUST students by TMT",
+    "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    },
+    "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_title": "Auto Fill PL + QC 2024.1",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["scripts/background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://forms.office.com/*/*"
+        ],
+        "js": [
+          "scripts/content.js"
+        ],
+        "run_at": "document_idle"
+      }
+    ],
+    "permissions": [
+      "clipboardWrite",
+      "storage",
+      "activeTab"
+    ]
+  }
+  
