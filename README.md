@@ -8,7 +8,9 @@
 
 ![image](https://github.com/user-attachments/assets/6ada68f5-d9d3-4d80-9b5a-015caf181236)
 
-- Bước 3: Upload file đã giải nén vào
+- Bước 3: Upload file đã giải nén vào **(Lưu ý lấy file ở bên trong nhé)**
+
+  
 
 - Bước 4: Ấn vào extension rồi làm theo là được nhé
 
