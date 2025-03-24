@@ -1,4 +1,5 @@
 // Danh sách các câu trả lời đã biết, mỗi câu có thể có nhiều đáp án đúng
+
 const answers = {
   "Người được chở trên xe mô tô (xe máy), xe gắn máy không đội mũ bảo hiểm bị xử phạt?":
     ["200.000 đến 400.000 đồng"],
@@ -385,9 +386,6 @@ const answers = {
     "Bán dâm",
     "Tổ chức hoạt động mại dâm",
   ],
-  "Hành vi tham nhũng có thể xảy ra ở đâu?": [
-    "Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực&nbsp;ngoài nhà nước",
-  ],
   "Khi gặp các thông tin mà anh/chị cho rằng không đúng trên một nhóm facebook nào đó, anh/chị nên làm gì?":
     [
       "Chặn, báo cáo bài viết cho quản trị viên và người có trách nhiệm liên quan",
@@ -409,51 +407,161 @@ const answers = {
     "Tạo ra sự phát triển nhân cách lệch lạc trong học sinh, sinh viên.",
     "Làm giảm sút học tập của học sinh, sinh viên và ảnh hưởng với giáo dục của Nhà trường.",
   ],
+  "Phong trào Bình dân học vụ được phát động trong bối cảnh nào?": [
+    "Sau khi Cách mạng Tháng Tám thành công",
+  ],
+  "Theo Kết luận 128-KL/TW, việc quản lý các chức danh lãnh đạo trong quân đội, công an ở địa phương được giao cho ai?": [
+    "Các Ban Thường vụ Quân ủy Trung ương, Đảng ủy Công an Trung ương",
+  ],
+  "Ngoài đại biểu Quốc hội, ai hoặc cơ quan nào khác có quyền đề nghị sửa đổi Hiến pháp?": [
+    "Chủ tịch nước, Ủy ban Thường vụ Quốc hội, Chính phủ",
+  ],
+  "Trong trường hợp cần trưng cầu ý dân về Hiến pháp mới hoặc sửa đổi Hiến pháp, ai là người quyết định việc này?": [
+    "Quốc hội",
+  ],
+  '"Bình dân học vụ số" có thể được triển khai thông qua hình thức nào?': [
+    "Cả hai hình thức trên",
+  ],
+  "Quy trình sửa đổi Hiến pháp ở Việt Nam bắt đầu bằng bước nào?": [
+    "Quốc hội thảo luận và biểu quyết đề nghị sửa đổi",
+  ],
+  "Đến khi nào các biện pháp tạm dừng trong Kết luận 128-KL/TW sẽ được dỡ bỏ?": [
+    "Khi hoàn thành việc sắp xếp đơn vị hành chính cấp tỉnh, huyện, xã",
+  ],
+  'Phong trào "Bình dân học vụ số" góp phần vào mục tiêu nào của Việt Nam đến năm 2030?': [
+    "Đảm bảo 100% người dân sử dụng thành thạo công nghệ số",
+  ],
+  "Phong trào Bình dân học vụ đã huy động lực lượng nào tham gia giảng dạy?": [
+    "Những người biết chữ bất kể nghề nghiệp",
+  ],
+  "Nghị quyết 57 đề xuất cơ chế gì để khuyến khích mua sắm công?": [
+    "Ưu tiên sản phẩm, hàng hóa là kết quả nghiên cứu khoa học trong nước",
+  ],
+  'Ai có thể là lực lượng nòng cốt trong việc triển khai "Bình dân học vụ số"?': [
+    "Đoàn viên thanh niên và tình nguyện viên",
+  ],
+  "Một trong những giải pháp đột phá của Nghị quyết 57 là gì?": [
+    "Đơn giản hóa thủ tục hành chính và giao quyền tự chủ trong sử dụng kinh phí nghiên cứu",
+  ],
+  "Kết luận 128-KL/TW được ban hành trong bối cảnh nào?": [
+    "Tổng kết Nghị quyết 18 về tinh gọn bộ máy hệ thống chính trị",
+  ],
+  "Theo quy định, việc sửa đổi Hiến pháp phải được thông qua với tỷ lệ phiếu tán thành tối thiểu là bao nhiêu?": [
+    "Ít nhất 2/3 tổng số đại biểu Quốc hội",
+  ],
+  '"Bình dân học vụ số" được đề cập trong bối cảnh quốc gia nào đang diễn ra mạnh mẽ?': [
+    "Chuyển đổi số quốc gia",
+  ],
+  "Hiến pháp hiện hành của Việt Nam được Quốc hội thông qua vào ngày nào?": [
+    "28/11/2013",
+  ],
+  "Điều khoản nào trong Hiến pháp Việt Nam không được phép sửa đổi theo quy định?": [
+    "Điều 4 về vai trò lãnh đạo của Đảng Cộng sản Việt Nam",
+  ],
+  "Mục tiêu chính của phong trào Bình dân học vụ là gì?": [
+    "Xóa nạn mù chữ trong nhân dân",
+  ],
+  "Theo Hiến pháp Việt Nam, cơ quan nào có quyền lập hiến và sửa đổi Hiến pháp?": [
+    "Quốc hội",
+  ],
+  "Một trong những nội dung quan trọng của Kết luận 128-KL/TW là gì?": [
+    "Sáp nhập và tinh gọn các cơ quan Mặt trận Tổ quốc, tổ chức chính trị - xã hội",
+  ],
+  "Theo Kết luận 128-KL/TW, từ ngày 07/03/2025, hoạt động nào bị tạm dừng ở các tổ chức chính trị - xã hội ở Trung ương?": [
+    "Tuyển dụng, bổ nhiệm và giới thiệu ứng cử các chức danh lãnh đạo",
+  ],
+  "Sau khi Quốc hội thông qua Hiến pháp sửa đổi, ai là người ký lệnh công bố?": [
+    "Chủ tịch Quốc hội",
+  ],
+  "Ai là người đứng đầu Nhà nước Việt Nam Dân chủ Cộng hòa đã ký sắc lệnh thành lập Nha Bình dân học vụ?": [
+    "Chủ tịch Hồ Chí Minh",
+  ],
+  "Theo Nghị quyết 57, nguồn lực đầu tư cho khoa học và công nghệ nên được ưu tiên thực hiện qua hình thức nào?": [
+    "Cơ chế quỹ thông qua các quỹ phát triển khoa học và công nghệ",
+  ],
+  "Theo Hiến pháp 2013, việc lấy ý kiến nhân dân về dự thảo sửa đổi Hiến pháp là bước nào trong quy trình?": [
+    "Bước bắt buộc trước khi Quốc hội thông qua",
+  ],
+  "Trong vòng một năm sau khi phát động, phong trào Bình dân học vụ đã giúp bao nhiêu người biết chữ?": [
+    "Gần 2,5 triệu người",
+  ],
+  "Nghị quyết 57-NQ/TW được ban hành vào ngày nào?": [
+    "22/12/2024",
+  ],
+  "Để bắt đầu quy trình sửa đổi Hiến pháp, cần có đề nghị từ ít nhất bao nhiêu đại biểu Quốc hội?": [
+    "2/3 tổng số đại biểu Quốc hội",
+  ],
+  "Theo thống kê, tỷ lệ mù chữ ở Việt Nam trước khi phong trào Bình dân học vụ diễn ra là bao nhiêu?": [
+    "Trên 90%",
+  ],
+  'Một trong những kỹ năng cơ bản mà "Bình dân học vụ số" có thể tập trung là gì?': [
+    "Sử dụng điện thoại thông minh và internet cơ bản",
+  ],
+  'Đối tượng chính mà "Bình dân học vụ số" hướng tới là ai?': [
+    "Toàn bộ người dân, đặc biệt là những người chưa quen với công nghệ",
+  ],
+  // "Kết luận 128-KL/TW  nhấn mạnh việc tiếp tục thực hiện hiệu quả những văn bản nào trước đó?": [
+  //   "Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị",
+  // ],
+  "Phong trào Bình dân học vụ có ý nghĩa gì đối với sự nghiệp cách mạng Việt Nam?": [
+    "Nâng cao dân trí, góp phần xây dựng đất nước",
+  ],
+  'Mục tiêu chính của "Bình dân học vụ số" là gì?': [
+    "Giúp người dân tiếp cận và sử dụng công nghệ số hiệu quả",
+  ],
+  "Kết luận 128-KL/TW của Bộ Chính trị được ban hành vào ngày nào?": [
+    "07/03/2025",
+  ],
+  "Theo Nghị quyết 57, ai được xác định là trung tâm và then chốt trong phát triển khoa học, công nghệ?": [
+    "Nhà khoa học",
+  ],
+  "Mục tiêu chính của Kết luận 128-KL/TW là gì?": [
+    "Tinh gọn tổ chức bộ máy và quản lý công tác cán bộ trong giai đoạn sắp xếp đơn vị hành chính",
+  ],
+  // "Khẩu hiệu nổi tiếng của phong trào Bình dân học vụ là gì?": [
+  //   '"Diệt giặc đói, giặc dốt, giặc ngoại xâm"',
+  // ],
+  '"Bình dân học vụ số" được hiểu là gì trong bối cảnh hiện nay?': [
+    "Phổ cập kiến thức và kỹ năng số cho người dân",
+  ],
+  'Phong trào "Bình dân học vụ số" lấy cảm hứng từ sự kiện lịch sử nào?': [
+    "Phong trào Bình dân học vụ xóa mù chữ năm 1945",
+  ],
+  "Kết luận 128-KL/TW yêu cầu các cấp ủy, tổ chức đảng thực hiện như thế nào để đảm bảo mục tiêu tinh gọn bộ máy?": [
+    "Triển khai đồng bộ, chặt chẽ theo chủ trương của Bộ Chính trị",
+  ],
+  "Theo Nghị quyết 57, yếu tố nào được coi là điều kiện tiên quyết để phát triển khoa học và công nghệ?": [
+    "Nhân lực chất lượng cao",
+  ],
+  "Một trong những mục tiêu dài hạn của Nghị quyết 57 đến năm 2045 là gì?": [
+    "Đưa Việt Nam trở thành quốc gia phát triển, thu nhập cao nhờ khoa học và công nghệ",
+  ],
+  '"Bình dân học vụ số" có ý nghĩa gì trong thời đại hiện nay?': [
+    "Giảm khoảng cách số giữa các tầng lớp xã hội",
+  ],
+  "Mục tiêu chính của Nghị quyết 57 là gì?": [
+    "Đột phá trong khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số",
+  ],
+  "Nghị quyết 57 khuyến khích các nhà khoa học làm gì để thúc đẩy đổi mới sáng tạo?": [
+    "Thành lập và điều hành doanh nghiệp dựa trên kết quả nghiên cứu",
+  ]
 };
 
 const totalQuestions = Object.keys(answers).length;
 console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 
-// // Hàm tự động điền câu trả lời dựa trên tên câu hỏi
-// async function autoFillFormBasedOnQuestion() {
-//   // const inputs = document.querySelectorAll('input');  // Lấy tất cả input, tức là các ô đáp án
-//   const spans = document.querySelectorAll(".text-format-content"); // Lấy tất cả các thẻ <span> chứa tên câu hỏi
-
-//   spans.forEach((span) => {
-//     const questionText = span.innerText.trim(); // Lấy tên câu hỏi từ thẻ <span>
-
-//     if (answers[questionText]) {
-//       // Kiểm tra xem answers[questionText] có phải là mảng không
-//       const answersList = Array.isArray(answers[questionText])
-//         ? answers[questionText]
-//         : [answers[questionText]];
-
-//       answersList.forEach((answer) => {
-//         const optioninputs = document.querySelectorAll(`[value="${answer}"]`); // Tìm các input có value tương ứng
-
-//         optioninputs.forEach((optioninput) => {
-//           if (optioninput.getAttribute("aria-checked") !== "true" && optioninput.getAttribute("value") === answer) {
-//             optioninput.click(); // Nhấn vào input để chọn
-//             console.log(`Filled "${questionText}" with "${answer}"`);
-//           }
-//         });
-//       });
-//     }
-//   });
-// }
-
-
 async function autoFillFormBasedOnQuestion() {
-  const spans = document.querySelectorAll(".text-format-content"); // Lấy tất cả các thẻ <span> chứa tên câu hỏi
-  const exep1 = document.querySelector(`[value="Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực\u00a0ngoài nhà nước"]`);
-  const exep2 = document.querySelector(`[value="Cấm xe mô tô (xe máy)."]`);
-  const exep3 = document.querySelector(`[value="Cấm xe ô tô và xe mô tô (xe máy)"]`);
-  const exep4 = document.querySelector(`[value="Đường dành cho xe mô tô (xe máy)."]`);
+  const spans = document.querySelectorAll(".text-format-content"); // Lấy tất cả các thẻ <> chứa tên câu hỏi
   
+  const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
+  const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
+  const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
+  const exep4 = document.querySelector('input[value*="ngoài nhà nước"]');
+
   const clickOption = (element) => {
     try {
       if (element) {
-        element.click();  // Nhấn vào input nếu nó tồn tại
+        element.click();
         console.log('Clicked the option successfully.');
       } else {
         console.warn('Element not found.');
@@ -469,7 +577,7 @@ async function autoFillFormBasedOnQuestion() {
   clickOption(exep4);
 
   spans.forEach((span) => {
-    const questionText = span.innerText.trim().replace(/\s+/g, " "); // Loại bỏ khoảng trắng thừa
+    const questionText = span.innerText.trim().replace(/\s+/g, " ");
 
     if (answers[questionText]) {
       const answersList = Array.isArray(answers[questionText])
@@ -477,13 +585,13 @@ async function autoFillFormBasedOnQuestion() {
         : [answers[questionText]];
 
       answersList.forEach((answer) => {
-        const answerNormalized = answer.trim(); // Chuẩn hóa giá trị
+        const answerNormalized = answer.trim();
 
-        const optioninputs = document.querySelectorAll(`[value="${answerNormalized}"]`); // Tìm input tương ứng
+        const optioninputs = document.querySelectorAll(`[value="${answerNormalized}"]`);
 
         optioninputs.forEach((optioninput) => {
           if (!optioninput.checked && optioninput.value === answerNormalized) {
-            optioninput.click(); // Nhấn vào input để chọn
+            optioninput.click();
             console.log(`Filled "${questionText}" with "${answerNormalized}"`);
           }
         });
@@ -498,7 +606,6 @@ chrome.runtime.onMessage.addListener(async (message) => {
     console.log("Fill form action received");
 
     try {
-      // Await the asynchronous form filling function
       await autoFillFormBasedOnQuestion();
       alert("Filled success!!");
     } catch (error) {
