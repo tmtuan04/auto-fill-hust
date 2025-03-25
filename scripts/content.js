@@ -909,9 +909,6 @@ async function autoFillFormBasedOnQuestion() {
   const exep10 = document.querySelector(`[value='2.07']`)
   const exep11 = document.querySelector(`[value*='Có ý thức, trách nhiệm']`)
 
-  const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
-  inputExep.value= 'https://ctsv.hust.edu.vn/#/so-tay-sv'
-
   const clickOption = (element) => {
     try {
       if (element) {
@@ -959,6 +956,9 @@ async function autoFillFormBasedOnQuestion() {
       });
     }
   });
+  
+  const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
+  inputExep.value= 'https://ctsv.hust.edu.vn/#/so-tay-sv'
 }
 
 // Lắng nghe tín hiệu từ popup.js
