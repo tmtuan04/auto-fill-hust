@@ -500,9 +500,6 @@ const answers = {
   'Đối tượng chính mà "Bình dân học vụ số" hướng tới là ai?': [
     "Toàn bộ người dân, đặc biệt là những người chưa quen với công nghệ",
   ],
-  // "Kết luận 128-KL/TW  nhấn mạnh việc tiếp tục thực hiện hiệu quả những văn bản nào trước đó?": [
-  //   "Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị",
-  // ],
   "Phong trào Bình dân học vụ có ý nghĩa gì đối với sự nghiệp cách mạng Việt Nam?": [
     "Nâng cao dân trí, góp phần xây dựng đất nước",
   ],
@@ -518,9 +515,6 @@ const answers = {
   "Mục tiêu chính của Kết luận 128-KL/TW là gì?": [
     "Tinh gọn tổ chức bộ máy và quản lý công tác cán bộ trong giai đoạn sắp xếp đơn vị hành chính",
   ],
-  // "Khẩu hiệu nổi tiếng của phong trào Bình dân học vụ là gì?": [
-  //   '"Diệt giặc đói, giặc dốt, giặc ngoại xâm"',
-  // ],
   '"Bình dân học vụ số" được hiểu là gì trong bối cảnh hiện nay?': [
     "Phổ cập kiến thức và kỹ năng số cho người dân",
   ],
@@ -551,12 +545,13 @@ const totalQuestions = Object.keys(answers).length;
 console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 
 async function autoFillFormBasedOnQuestion() {
-  const spans = document.querySelectorAll(".text-format-content"); // Lấy tất cả các thẻ <> chứa tên câu hỏi
+  const spans = document.querySelectorAll(".text-format-content");
   
+  // Bắt ngoại lệ từ form
   const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
   const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
   const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
-  const exep4 = document.querySelector('input[value*="ngoài nhà nước"]');
+  const exep4 = document.querySelector(`[value*='ngoài nhà nước']`);
 
   const clickOption = (element) => {
     try {
