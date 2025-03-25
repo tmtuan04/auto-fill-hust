@@ -538,7 +538,356 @@ const answers = {
   ],
   "Nghị quyết 57 khuyến khích các nhà khoa học làm gì để thúc đẩy đổi mới sáng tạo?": [
     "Thành lập và điều hành doanh nghiệp dựa trên kết quả nghiên cứu",
-  ]
+  ],
+  "Sinh viên có thể xem thời khóa biểu trong một kỳ học ở đâu?": [
+    "App eHUST",
+    "http://ctt.hust.edu.vn",
+  ],
+  "Khi nào sinh viên cần đăng ký kế hoạch học tập cho kỳ tới?": [
+    "Thường vào 2 tuần 5-6 của học kỳ hiện tại",
+  ],
+  "Điểm rèn luyện được xếp loại theo cách nào dưới đây?": [
+    "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+  ],
+  "Các màu nhãn sách tại Trung tâm truyền thông và tri thức số là:": [
+    "Màu trắng: sách đọc tại các phòng.",
+    "Màu vàng: sách tại các phòng mượn tham khảo.",
+    "Màu tím: sách tại phòng mượn giáo trình.",
+    "Màu xanh: sách tại phòng mượn giáo trình.",
+    "Màu hồng: sách tra cứu/ từ điển tại các phòng đọc.",
+  ],
+  "Một môn học có thể có các điều kiện học phần nào": [
+    "Học phần học trước, Học phần song hành, Học phần tiên quyết",
+  ],
+  'Hành vi “vào phòng thi để thi thay người khác” lần thứ 2 sẽ dẫn đến hình thức kỷ luật nào?': [
+    "Buộc thôi học",
+  ],
+  'Sinh viên vi phạm “dùng phương tiện kỹ thuật truyền tin để làm hộ bài thi cho người khác” lần thứ 2 sẽ bị xử lý như thế nào?': [
+    "Buộc thôi học",
+  ],
+  "Chính sách của Đại học Bách Khoa Hà Nội khi hỗ trợ sinh viên khó khăn, rủi do đột xuất là gì:": [
+    "Sinh viên được hỗ trợ 5-10 triệu đồng.",
+  ],
+  "Điều kiện cần để đạt học bổng loại A là gì?": [
+    "GPA≥3,6 ĐRL≥90",
+  ],
+  "Nếu một sinh viên bị ốm nặng và phải nhập viện trong thời gian thi cuối kỳ, sinh viên đó nên làm gì?": [
+    "Báo với giảng viên và làm thủ tục xin hoãn thi",
+  ],
+  "Ai chịu trách nhiệm lập và quản lý hồ sơ cá nhân của sinh viên?": [
+    "Ban Công tác sinh viên",
+  ],
+  "Quy chế CTSV mới ban hành có hiệu lực từ khi nào?": [
+    "Ngày 13 tháng 3 năm 2025",
+  ],
+  "Dựa trên đánh giá kết quả học tập, quy định về điểm liệt như nào:": [
+    "Điểm quá trình < 3.0, Điểm cuối kỳ < 3.0.",
+  ],
+  "Theo định hướng của Ban Giám đốc Đại học với sinh viên NĂM THỨ HAI, bạn nên làm gì?!": [
+    "Tập trung chuyên ngành, Tham gia thực tập/ trao đổi sinh viên, Phát triển kỹ năng lãnh đạo, Mở rộng mạng lưới quan hệ.",
+  ],
+  "Để một học phần không bị điểm liệt, điều kiện nào sau đây phải được đáp ứng?": [
+    "Cả điểm quá trình và điểm thi cuối kỳ đều lớn hơn 3.0",
+  ],
+  "Kết quả học tập sẽ được cập nhật vào khoảng thời gian nào?": [
+    "4-5 tuần sau khi thi học kỳ",
+  ],
+  "Địa chỉ email của Ban Đào tạo ?": [
+    "dt@hust.edu.vn",
+  ],
+  "Quy tắc sắp xếp thời gian Khoa học": [
+    "Toàn diện",
+    "Hợp lý",
+    "Nổi bật trọng điểm",
+    "Dành khoảng thời gian trống",
+  ],
+  "Theo quy định, khi nào sinh viên sẽ hội tụ đủ yếu tố về điểm rèn luyện để Hội đồng kỷ luật nhà trường xem xét hình thức kỷ luật nâng cảnh báo học tập lên mức 2 ?": [
+    "Khi đủ 2 học kỳ liên tiếp dưới 50đ.",
+  ],
+  "Theo định hướng của Ban Giám đốc Đại học với sinh viên NĂM THỨ BA, bạn nên làm gì?!": [
+    "Học chuyên ngành, Tham gia các lab/dự án, Phát triển kỹ năng chuyên môn, Xây dựng hồ sơ cá nhân.",
+  ],
+  "Phương pháp quản lý chi tiêu 50-20-30 với sinh viên?": [
+    "50% Nhu cầu thiết yếu, 20% Tiết kiệm, 30% Sở thích cá nhân",
+  ],
+  "Theo Quy chế CTSV mới ban hành, trách nhiệm nào dưới đây là bắt buộc đối với sinh viên?": [
+    "Chấp hành nghiêm các chủ trương của Đảng và quy định của Đại học",
+  ],
+  "Vốn vay không được phép sử dụng vào mục đích nào?": [
+    "Mua và sử dụng các chất kích thích, ma túy, đồ chơi tiêu khiển vì mục đích mua vui cho bản thân, cá nhân",
+  ],
+  "Mục chấm điểm rèn luyện có 2 cột điểm SV chấm và điểm GV chấm, vậy điểm chốt tính theo điểm nào?": [
+    "Cột điểm GV chấm.",
+  ],
+  "Địa chỉ email ssu@hust.edu.vn là địa chỉ tiếp nhận thông tin của đơn vị nào dưới đây?": [
+    "Tổ Tư vấn và hỗ trợ sinh viên",
+  ],
+  "Sinh viên có thể xem tổng số tiền học phí phải đóng trong một kỳ học ở đâu": [
+    "http://ctt-sis.hust.edu.vn",
+  ],
+  "Trong các buổi nói chuyện của Ban Giám đốc đại học, hình ảnh chú CÁ NGỪ minh hoa cho định hướng phát triển sau tốt nghiệp": [
+    "Đi làm kỹ thuật, chuyên gia thực việc",
+  ],
+  "Địa chỉ Ban Công tác Sinh viên của Đại học Bách Khoa Hà Nội?": [
+    "Phòng 101-105 nhà C1",
+  ],
+  'Sinh viên có hành vi “tổ chức đánh bạc” sẽ bị xử lý như thế nào theo phụ lục của Quy chế CTSV mới ban hành?': [
+    "Chuyển cơ quan chức năng xử lý theo pháp luật",
+  ],
+  "Cách thức đánh giá điểm rèn luyện của Đại học Bách Khoa Hà Nội là gì?": [
+    "Giáo viên chấm điểm theo khung điểm, kết quả tự đánh giá và minh chứng",
+    "Thực hiện trên hệ thống sổ tay sinh viên Online (Web/App)",
+    "Cách thức đánh giá bao gồm cả ba phương án trên",
+    "Sinh viên tự đánh giá theo các minh chứng tham gia hoạt động tích lũy được",
+  ],
+  "Thời gian đào tạo chuẩn của bậc Cử nhân là bao lâu?": [
+    "4 năm",
+  ],
+  "Sau thời gian điều chỉnh đăng ký, sinh viên có thể làm đơn xin rút học phần để không tính kết quả học tập không?": [
+    "Được làm đơn xin rút và phải đóng học phí cho học phần được rút",
+  ],
+  "Điều kiện được xét học bổng loại A là gì:": [
+    "GPA từ 3.6, điểm rèn luyện từ 90.",
+  ],
+  "Khi nào sinh viên phải hoàn toàn tự đăng ký lớp?": [
+    "Bắt đầu từ học kỳ thứ 3",
+  ],
+  "Cho học phần MI1026 với khối lượng như sau 4(3-2-0-8). Những số trong ngoặc đơn thể hiện số giờ trong 1 tuần theo thứ tự từ trái sang phải đúng là?": [
+    "3 giờ lý thuyết, 2 giờ bài tập, 0 giờ thực hành, 8 giờ tự học",
+  ],
+  "Bạn hãy cho biết để đạt được Danh hiệu Sinh viên 5 tốt, bạn cần đáp ứng đủ những tiêu chí nào sau đây?": [
+    "Đạo đức tốt, Học tập tốt, Tình nguyện tốt, Thể lực tốt, Hội nhập tốt",
+  ],
+  "Chính sách mượn tài liệu của Thư viện là:": [
+    "Số lượng tài liệu mượn tối đa: 8 cuốn (phòng 111); 5 cuốn (phòng 102). Thời gian mượn: 60 ngày (phòng 111); 30 ngày (phòng 102). Gia hạn: 30 ngày (phòng 111); 7 ngày (phòng 102).",
+  ],
+  "Sinh viên nạp tiền thẻ gửi xe đạp/ xe máy ở đâu": [
+    "Trung tâm Dịch vụ và Hỗ trợ Bách khoa",
+  ],
+  "Địa chỉ của Sổ tay công tác sinh viên Online?": [
+    "https://ctsv.hust.edu.vn/",
+  ],
+  // Khả năng có lỗi
+  "Khi gặp vấn đề về tài khoản email bạn liên lạc với Trung tâm Chuyển đổi số tại phòng nào?": [
+    "Phòng 905A – Thư viện Tạ Quang Bửu",
+  ],
+  "Những giá trị cốt lõi Đại học Bách khoa từ góc nhìn văn hoá?": [
+    "Tài năng cá nhân. Trí tuệ tập thể",
+    "Tận tuỵ, Cống hiến",
+    "Tôn trọng. Chính trực",
+    "Kế thừa. Sáng tạo",
+    "Chất lượng. Hiệu quả",
+  ],
+  "Quy chế CTSV mới ban hành áp dụng cho đối tượng nào?": [
+    "Chỉ sinh viên đại học hệ chính quy văn bằng thứ nhất",
+  ],
+  "Mức học bổng loại B có giá trị?": [
+    "Cả A và C",
+  ],
+  "Sinh viên sau khi đăng ký học phần sẽ được gì dưới đây?": [
+    "Được đăng ký học tập trong cả 2 đợt: chính thức và điều chỉnh",
+  ],
+  '“Trường Đại học Bách Khoa Hà Nội” được mang tên mới là “Đại học Bách Khoa Hà Nội” từ ngày nào?': [
+    "2/12/2022",
+  ],
+  "Quy định về trang phục đối với sinh viên tại Đại học Bách Khoa Hà Nội ?": [
+    "Sinh viên không cần mặc đồng phục mọi lúc nhưng trang phục phù phải hợp với môi trường học tập; đồng thời yêu cầu sinh viên đeo thẻ sinh viên/học viên khi đi học và tới khu vực làm việc của nhà trường.",
+  ],
+  "Trong các buổi nói chuyện của Ban Giám đốc đại học,hình ảnh chú CÁ MẬP minh hoa cho định hướng phát triển sau tốt nghiệp": [
+    "Trở thành nhà sáng lập doanh nghiệp",
+  ],
+  "Một môn học có trọng số KT(0,4)-T(0,6) nghĩa là môn học đó có": [
+    "Trọng số của điểm kiểm tra giữa kỳ là 0,4, cuối kỳ là 0,6",
+  ],
+  "Hành vi nào dưới đây sinh viên không được phép thực hiện?": [
+    "Gian lận trong học tập, kiểm tra, thi cử",
+  ],
+  "Nếu sinh viên vi phạm “học thay hoặc nhờ người học thay” lần thứ 3, hình thức kỷ luật nào sẽ được áp dụng?": [
+    "Cảnh cáo",
+  ],
+  "Theo Quy chế CTSV mới ban hành, nội dung giáo dục nào dưới đây được triển khai cho sinh viên?": [
+    "Giáo dục chính trị tư tưởng",
+  ],
+  "Hành vi “tổ chức làm hộ tiểu luận, đồ án, khóa luận tốt nghiệp” có thể dẫn đến hậu quả nào nếu mức độ nghiêm trọng?": [
+    "Chuyển cơ quan chức năng xử lý theo pháp luật",
+  ],
+  "Sinh viên “làm hộ tiểu luận, đồ án, khóa luận tốt nghiệp” cho người khác lần thứ 2 sẽ nhận hình thức kỷ luật nào?": [
+    "Buộc thôi học",
+  ],
+  "Theo phụ lục của Quy chế CTSV mới ban hành, sinh viên sử dụng văn bằng, chứng chỉ giả để xét điều kiện tốt nghiệp sẽ bị xử lý như thế nào ở lần đầu?": [
+    "Đình chỉ 1 năm học",
+  ],
+  "Hình thức kỷ luật nào được áp dụng nếu sinh viên vi phạm lần đầu ở mức độ nhẹ?": [
+    "Khiển trách",
+  ],
+  // 'Đường link của trang thông tin "Những điều viên cần biết" là gì?': [
+  //   "https://sv-ctt.hust.edu.vn/#/so-tay-sv",
+  // ],
+  "Sau khi kết thúc kỳ học, sinh viên cần thực hiện nhiệm vụ nào sau đây?": [
+    "Đăng ký lớp cho các môn đã chọn trong kỳ tới",
+  ],
+  "Sinh viên vi phạm hành vi “đánh nhau” lần thứ 2 sẽ bị áp dụng hình thức kỷ luật nào theo phụ lục của Quy chế CTSV mới ban hành?": [
+    "Đình chỉ học tập 1 năm học",
+  ],
+  "Sinh viên được xếp hạng trình độ năm thứ nhất căn cứ số tín chỉ tích lũy như thế nào?": [
+    "Trình độ năm thứ nhất nếu số tín chỉ tích lũy <32",
+  ],
+  "Học bổng Trần Đại Nghĩa dành cho sinh viên có hoàn cảnh kinh tế khó khăn, có nghị lực vươn lên trong cuộc sống có 2 mức học bổng, đó là những mức nào?": [
+    "50% và 100%",
+  ],
+  "Ban Công tác Sinh viên sẽ tiếp nhận và giải đáp thắc mắc của sinh viên tại địa chỉ nào?": [
+    "Chỉ tại các phòng 102 – 104 tòa nhà C1",
+    "Chỉ qua Email: ctsv@hust.edu.vn",
+    "Chỉ thông qua FB: www.fb.com/ctsv.hust.edu.vn",
+  ],
+  "Mục tiêu của việc đánh giá điểm rèn luyện mỗi kì đối với sinh viên": [
+    "Cung cấp thông tin cho quá trình quản lý, hỗ trợ tổ chức các hoạt động hỗ trợ sinh viên phát triển toàn diện",
+    "Thúc đẩy sinh viên tích cực rèn luyện để tăng khả năng thành công",
+  ],
+  "Nghỉ dài hạn do lý do bất khả kháng (ốm đau, điều trị dài ngày..) cần làm gì?": [
+    "Báo với giảng viên quản lý và Nộp đơn xin nghỉ dài hạn theo hướng dẫn của Ban Công tác sinh viên",
+  ],
+  "Theo định hướng của Ban Giám đốc Đại học với sinh viên NĂM THỨ NHẤT, bạn nên làm gì?!": [
+    "Làm quen với môi trường đại học; Xây dựng nền tảng học tập; Phát triển kỹ năng mềm, ngoại ngữ; Khám phá các cơ hội nghề nghiệp.",
+  ],
+  "Chính sách hỗ trợ vay vốn ngân hàng cho sinh viên là gì": [
+    "Mức vay tối đa: 4 triệu đồng/ tháng x 10 tháng/năm học.",
+  ],
+  "Địa chỉ email của Văn phòng Đoàn Thanh niên là?": [
+    "dtn@hust.edu.vn",
+  ],
+  "Đường link truy cập Hệ thống BK-Elearning là?": [
+    "https://lms.hust.edu.vn",
+  ],
+  "Yêu cầu bắt buộc đối với sinh viên khi gửi email thắc mắc vấn đề như đăng ký học tập, chuyển điểm tương đương/thay thế, học phí... là?": [
+    "Sử dụng email nhà trường cấp (..@sis.hust.edu.vn)",
+  ],
+  "Các dịch vụ tại thư viện Tạ Quang Bửu:": [
+    "Đọc tại chỗ, mượn về nhà.",
+    "Truy cập tài nguyên điện tử.",
+    "Tiện ích khác (Phòng tự học, …)",
+  ],
+  "Hãy chọn các học bổng cho sinh viên của Đại học Bách khoa Hà Nội:": [
+    "Học bổng Khuyến khích học tập",
+    "Học bổng Trần Đại Nghĩa",
+    "Học bổng Gắn kết Quê hương",
+  ],
+  "Địa chỉ của Cổng thông tin sinh viên?": [
+    "https://ctt.hust.edu.vn/",
+  ],
+  'Trong "6 QUY TẮC VĂN HÓA GIAO TIẾP TRONG NHÀ TRƯỜNG VÀ MÔI TRƯỜNG MẠNG"  quy tắc thứ 6 là': [
+    "Có ý thức, trách nhiệm bảo vệ danh tiếng và tài sản của Nhà trường.",
+  ],
+  "Mức cho vay tối đa đối với HSSV là:": [
+    "4.000.000đ/tháng/sinh viên",
+  ],
+  "HSSV nào sau đây thuộc một trong các đối tượng được vay vốn?": [
+    "HSSV có hoàn cảnh khó khăn sống trong hộ gia đình cư trú hợp pháp tại địa phương nơi cho vay.",
+  ],
+  "Sinh viên vi phạm hành vi “học thay hoặc nhờ người học thay” lần thứ 2 sẽ bị xử lý hình thức kỷ luật nào?": [
+    "Khiển trách",
+  ],
+  "Sinh viên “tổ chức học hộ hoặc thi hộ” dưới mọi hình thức sẽ bị xử lý ra sao theo phụ lục của Quy chế CTSV mới ban hành?": [
+    "Đình chỉ học tập 1 năm học",
+  ],
+  "Chương trình đào tạo thạc sĩ khác với chương trình kỹ sư chuyên sâu đặc thù ở điểm nào sau đây?": [
+    "Thạc sĩ có định hướng nghiên cứu hàn lâm và phát triển, kỹ sư chuyên sâu nghề nghiệp",
+  ],
+  "Sinh viên “nhờ người khác vào phòng thi để thi thay” lần đầu tiên sẽ bị xử lý như thế nào theo phụ lục của Quy chế CTSV mới ban hành?": [
+    "Đình chỉ học tập 1 năm học",
+  ],
+  "Điểm của học phần được tính dựa trên những yếu tố nào?": [
+    "Điểm quá trình và điểm thi cuối kỳ",
+  ],
+  "Đâu là quy trình đánh giá kết quả điểm rèn luyện của sinh viên?": [
+    "Thu thập, xác nhận tham gia hoạt động – Đánh giá kết quả điểm rèn luyện - Sử dụng kết quả điểm rèn luyện - Tự đánh giá kết quả điểm rèn luyện",
+  ],
+  "Việc đăng ký lớp học chính thức có ưu tiên cho đối tượng nào?": [
+    "Sinh viên đã đăng ký học phần trước",
+  ],
+  "Quy chế công tác sinh viên đại học hệ chính quy của Đại học Bách khoa Hà Nội được ban hành kèm theo quyết định nào?": [
+    "Quyết định số 2727/QĐ-ĐHBK",
+  ],
+  "Sinh viên bắt đầu được xem xét chuyển ngành từ khi nào?": [
+    "Sau khi hoàn thành năm thứ nhất",
+  ],
+  "Địa chỉ bạn cần đến để được hỗ trợ, tư vấn về học tập và tâm lý khi gặp khó khăn là?": [
+    "D8-403",
+  ],
+  "Trong các buổi nói chuyện của Ban Giám đốc đại học, hình ảnh chú CÁ HEO minh hoa cho định hướng phát triển sau tốt nghiệp": [
+    "Trở thành nhà nghiên cứu",
+  ],
+  "Khi xin hoãn thi cuối kỳ, điểm của sinh viên sẽ được tính như thế nào?": [
+    "Điểm sẽ được tính sau khi thi bù",
+  ],
+  "Trong phần nói chuyện của Ban Giám đốc đại học, hình ảnh chú CÁ VOI minh hoa cho định hướng phát triển sau tốt nghiệp": [
+    "Trở thành chuyên gia, bậc thầy công nghệ",
+  ],
+  "Một sinh viên có điểm trung bình tích lũy là 3.74 và điểm rèn luyện là 70. Sinh viên này có đủ điều kiện để xin học bổng khuyến khích học tập loại nào?": [
+    "Loại C",
+  ],
+  "Theo Quy chế CTSV mới ban hành, đơn vị nào chịu trách nhiệm chính trong việc tổ chức các hoạt động nghiên cứu khoa học (NCKH) cho sinh viên?": [
+    "Ban Khoa học - Công nghệ",
+  ],
+  "Đăng ký học tập không phù hợp có thể dẫn đến hậu quả như thế nào?": [
+    "Số tín chỉ nợ (nếu có) tăng dần chứ không giảm",
+    "Chậm tiến độ",
+    "Kết quả học tập kém",
+  ],
+  "Đối tượng được xét học bổng Trần Đại Nghĩa là những ai:": [
+    "Sinh viên có hoàn cảnh khó khăn, có nghị lực vươn lên trong cuộc sống nhưng chưa nhận được nguồn hỗ trợ nào.",
+  ],
+  "Theo phụ lục của Quy chế CTSV mới ban hành, hành vi “nhờ làm hộ tiểu luận, đồ án, khóa luận tốt nghiệp” lần đầu tiên sẽ bị xử lý ở mức nào?": [
+    "Đình chỉ học tập 1 năm học",
+  ],
+  "Sinh viên sẽ bị xem xét buộc thôi học nếu?": [
+    "Bị cảnh cáo học tập mức 3 lần thứ hai",
+  ],
+  "Nếu sinh viên “dùng phương tiện kỹ thuật truyền tin để nhờ người khác làm hộ bài thi” lần đầu tiên, hình thức kỷ luật nào sẽ được áp dụng?": [
+    "Nếu sinh viên “dùng phương tiện kỹ thuật truyền tin để nhờ người khác làm hộ bài thi” lần đầu tiên, hình thức kỷ luật nào sẽ được áp dụng?",
+  ],
+  "Sinh viên đạt thành tích xuất sắc trong học tập và nghiên cứu khoa học có thể nhận được phần thưởng nào?": [
+    "Giấy khen và phần thưởng",
+  ],
+  "Quyền lợi nào dưới đây sinh viên được hưởng theo Quy chế CTSV mới ban hành?": [
+    "Được sử dụng học liệu, thiết bị phục vụ học tập và nghiên cứu khoa học",
+  ],
+  "Theo định hướng của Ban Giám đốc Đại học với sinh viên NĂM THỨ TƯ, bạn nên làm gì?!": [
+    "Hoàn thiện kỹ năng mềm và chuyên môn, ngoại ngữ, Đồ án tốt nghiệp, Tìm việc/ học bổng ĐH/ Quỹ đầu tư…",
+  ],
+  "Một số điều sinh viên cần ghi nhớ khi vào thư viện?": [
+    "Chỉ được phép mang ba lô, cặp sách vào các phòng tự học",
+    "Đọc kỹ hướng dẫn, nội quy trước khi sử dụng​",
+    "Quét thẻ tại cổng bảo vệ",
+    "Mang sách ra quầy thủ thư để mượn và kiểm tra tài khoản​ (Phòng mượn)",
+  ],
+  "Việc đánh giá mức độ hài lòng của sinh viên về chất lượng phục vụ của đơn vị quản ngành được thực hiện vào thời gian nào?": [
+    "Hàng năm, không quy định thời gian cụ thể",
+  ],
+  "Theo Điều 14 của Quy chế CTSV mới ban hành, trách nhiệm của cố vấn học tập bao gồm việc nào dưới đây?": [
+    "Tư vấn, hỗ trợ sinh viên xây dựng kế hoạch học tập phù hợp",
+  ],
+  "Nộp hồ sơ chế độ chính sách miễn giảm học phí tại đâu?": [
+    "Ban Công tác sinh viên",
+  ],
+  "Điều kiện xét tuyển học bổng loại B:": [
+    "GPA ≥ 3,2; Điểm RL ≥ 80",
+  ],
+  "Đâu là các ứng dụng Office 365 trong tài khoản được cấp cho sinh viên?": [
+    "Outlook, Teams",
+  ],
+  "Một sinh viên có điểm trung bình tích lũy là 3.4 và điểm rèn luyện là 95. Sinh viên này có đủ điều kiện để xin học bổng khuyến khích học tập loại nào?": [
+    "Loại B",
+  ],
+  "Những công việc sinh viên BẮT BUỘC phải làm trong học kỳ?": [
+    "Đăng ký học tập",
+    "Đóng học phí",
+    "Kiểm tra giữa kỳ",
+    "Thi học kỳ",
+  ],
+  "Chính sách hỗ trợ vay vốn ngân hàng cho sinh viên là gì:": [
+    "Mức vay tối đa: 4 triệu đồng/ tháng x 10 tháng/năm học.",
+  ],
 };
 
 const totalQuestions = Object.keys(answers).length;
@@ -552,6 +901,13 @@ async function autoFillFormBasedOnQuestion() {
   const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
   const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
   const exep4 = document.querySelector(`[value*='Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực']`);
+  const exep5 = document.querySelector(`[value*='Sinh viên có thể tự lập kế hoạch học tập dựa trên "Kế hoạch học tập chuẩn"']`);
+  const exep6 = document.querySelector(`[value='Cả 3 phương án trên']`);
+  const exep7 = document.querySelector(`[value='GPA ≥ 3,2; Điểm RL ≥ 80 ']`)
+  const exep8 = document.querySelector(`[value*='Đảm bảo công tác sinh viên phù hợp với chủ trương của Đảng']`)
+  const exep9 = document.querySelector(`[value='Xem xét xử lý tương đương mức cảnh báo học tập mức 2']`)
+  const exep10 = document.querySelector(`[value='2.07']`)
+  const exep11 = document.querySelector(`[value*='Có ý thức, trách nhiệm']`)
 
   const clickOption = (element) => {
     try {
@@ -570,6 +926,13 @@ async function autoFillFormBasedOnQuestion() {
   clickOption(exep2);
   clickOption(exep3);
   clickOption(exep4);
+  clickOption(exep5);
+  clickOption(exep6);
+  clickOption(exep7);
+  clickOption(exep8);
+  clickOption(exep9);
+  clickOption(exep10);
+  clickOption(exep11);
 
   spans.forEach((span) => {
     const questionText = span.innerText.trim().replace(/\s+/g, " ");
