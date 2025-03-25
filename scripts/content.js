@@ -551,7 +551,7 @@ async function autoFillFormBasedOnQuestion() {
   const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
   const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
   const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
-  const exep4 = document.querySelector(`[value*='ngoài nhà nước']`);
+  const exep4 = document.querySelector(`[value*='Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực']`);
 
   const clickOption = (element) => {
     try {
