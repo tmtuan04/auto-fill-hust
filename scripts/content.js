@@ -896,7 +896,7 @@ console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 async function autoFillFormBasedOnQuestion() {
   const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
   if (inputExep) {
-    inputExep.value = 'Hello';
+    inputExep.value = 'https://ctsv.hust.edu.vn/#/so-tay-sv';
   } else {
     console.error("Không tìm thấy ô nhập liệu!");
   }
