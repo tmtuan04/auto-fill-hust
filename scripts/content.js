@@ -894,6 +894,12 @@ const totalQuestions = Object.keys(answers).length;
 console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 
 async function autoFillFormBasedOnQuestion() {
+  const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
+  if (inputExep) {
+    inputExep.value = 'Hello';
+  } else {
+    console.error("Không tìm thấy ô nhập liệu!");
+  }
   const spans = document.querySelectorAll(".text-format-content");
   
   // Bắt ngoại lệ từ form
@@ -956,9 +962,6 @@ async function autoFillFormBasedOnQuestion() {
       });
     }
   });
-  
-  const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
-  inputExep.value= 'https://ctsv.hust.edu.vn/#/so-tay-sv'
 }
 
 // Lắng nghe tín hiệu từ popup.js
