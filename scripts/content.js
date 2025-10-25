@@ -253,7 +253,7 @@ const answers = {
     "Giảng viên và cán bộ trong trường"
   ],
   "Điều kiện tối thiểu để sinh viên được xét cấp Học bổng Trao đổi sinh viên là gì?": [
-    "Từ năm thứ 3, $CPA\ge3.2,$ ĐRL tích lũy $\ge80$"
+    "Từ năm thứ 3, CPA ≥ 3.2, ĐRL tích lũy ≥ 80"
   ],
   "Quỹ đầu tư mạo hiểm BKFund được xây dựng từ nguồn lực nào và có sứ mệnh chính là gì?": [
     "Từ mạng lưới Cựu sinh viên, nhằm đầu tư, ươm tạo các startup của cán bộ, sinh viên, cựu sinh viên."
@@ -331,7 +331,7 @@ const answers = {
     "Tạo động lực học tập tích cực cho sinh viên."
   ],
   "Để đạt được Học bổng Khuyến khích học tập (KKHT) loại Xuất sắc, sinh viên cần đáp ứng điều kiện nào?": [
-    "$GPA\ge3.6$ và Điểm rèn luyện học $k\dot{y}\ge90$ điểm"
+    "GPA ≥ 3.6 và Điểm rèn luyện học kỳ ≥ 90 điểm "
   ],
   "Đại học Bách khoa Hà Nội đã được Nhà nước trao tặng Huân chương Hồ Chí Minh tổng cộng bao nhiêu lần?": [
     "2 lần"
@@ -387,7 +387,7 @@ const answers = {
   "Hành vi nào sau đây bị nghiêm cấm trong ứng xử với bạn bè, đặc biệt trên không gian mạng?": [
     "Sử dụng mạng xã hội để nói xấu, bôi nhọ hoặc kích động hận thù."
   ],
-  "Theo sổ tay sinh viên 2025, sinh viên nên xây dựng một quỹ dự phòng với số tiền tối thiểu tương đương bao nhiêu tháng chỉ tiêu thiết yếu để sử dụng cho các trường hợp khẩn cấp như ốm đau, tai nạn?": [
+  "Theo sổ tay sinh viên 2025, sinh viên nên xây dựng một quỹ dự phòng với số tiền tối thiểu tương đương bao nhiêu tháng chi tiêu thiết yếu để sử dụng cho các trường hợp khẩn cấp như ốm đau, tai nạn?": [
     "3 tháng."
   ],
   "Trong trường hợp nào sinh viên có thể đề nghị rút học phần mà không phải đóng học phí cho học phần đó?": [
