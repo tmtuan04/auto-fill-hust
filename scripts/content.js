@@ -820,51 +820,51 @@ const totalQuestions = Object.keys(answers).length;
 console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 
 async function autoFillFormBasedOnQuestion() {
-  const inputExep = document.querySelector('input[placeholder="Nhập câu trả lời của bạn"]');
+  const inputExep = document.querySelector('textarea[placeholder="Nhập câu trả lời của bạn"], textarea[placeholder="Enter your answer"]');
   if (inputExep) {
-    inputExep.value = 'https://ctsv.hust.edu.vn/#/so-tay-sv';
+    inputExep.value = 'Thượng tôn pháp luật là việc coi pháp luật là chuẩn mực cao nhất trong xã hội, mọi người đều bình đẳng và phải tuân thủ pháp luật, không ai được đứng trên pháp luật. Là sinh viên, để trở thành công dân tốt, chúng ta cần học tập, rèn luyện ý thức chấp hành pháp luật, tôn trọng quyền và lợi ích hợp pháp của người khác, sống trung thực, có trách nhiệm, tích cực tham gia các hoạt động vì cộng đồng và góp phần xây dựng một xã hội văn minh, công bằng, kỷ cương.';
   } else {
     console.error("Không tìm thấy ô nhập liệu!");
   }
   const spans = document.querySelectorAll(".text-format-content");
   
-  // Bắt ngoại lệ từ form
-  const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
-  const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
-  const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
-  const exep4 = document.querySelector(`[value*='Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực']`);
-  const exep5 = document.querySelector(`[value*='Sinh viên có thể tự lập kế hoạch học tập dựa trên "Kế hoạch học tập chuẩn"']`);
-  const exep6 = document.querySelector(`[value='Cả 3 phương án trên']`);
-  const exep7 = document.querySelector(`[value='GPA ≥ 3,2; Điểm RL ≥ 80 ']`)
-  const exep8 = document.querySelector(`[value*='Đảm bảo công tác sinh viên phù hợp với chủ trương của Đảng']`)
-  const exep9 = document.querySelector(`[value='Xem xét xử lý tương đương mức cảnh báo học tập mức 2']`)
-  const exep10 = document.querySelector(`[value='2.07']`)
-  const exep11 = document.querySelector(`[value*='Có ý thức, trách nhiệm']`)
+  // // Bắt ngoại lệ từ form
+  // const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
+  // const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
+  // const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
+  // const exep4 = document.querySelector(`[value*='Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực']`);
+  // const exep5 = document.querySelector(`[value*='Sinh viên có thể tự lập kế hoạch học tập dựa trên "Kế hoạch học tập chuẩn"']`);
+  // const exep6 = document.querySelector(`[value='Cả 3 phương án trên']`);
+  // const exep7 = document.querySelector(`[value='GPA ≥ 3,2; Điểm RL ≥ 80 ']`)
+  // const exep8 = document.querySelector(`[value*='Đảm bảo công tác sinh viên phù hợp với chủ trương của Đảng']`)
+  // const exep9 = document.querySelector(`[value='Xem xét xử lý tương đương mức cảnh báo học tập mức 2']`)
+  // const exep10 = document.querySelector(`[value='2.07']`)
+  // const exep11 = document.querySelector(`[value*='Có ý thức, trách nhiệm']`)
 
-  const clickOption = (element) => {
-    try {
-      if (element) {
-        element.click();
-        console.log('Clicked the option successfully.');
-      } else {
-        console.warn('Element not found.');
-      }
-    } catch (error) {
-      console.error('Error occurred while clicking:', error);
-    }
-  };
+  // const clickOption = (element) => {
+  //   try {
+  //     if (element) {
+  //       element.click();
+  //       console.log('Clicked the option successfully.');
+  //     } else {
+  //       console.warn('Element not found.');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error occurred while clicking:', error);
+  //   }
+  // };
   
-  clickOption(exep1);
-  clickOption(exep2);
-  clickOption(exep3);
-  clickOption(exep4);
-  clickOption(exep5);
-  clickOption(exep6);
-  clickOption(exep7);
-  clickOption(exep8);
-  clickOption(exep9);
-  clickOption(exep10);
-  clickOption(exep11);
+  // clickOption(exep1);
+  // clickOption(exep2);
+  // clickOption(exep3);
+  // clickOption(exep4);
+  // clickOption(exep5);
+  // clickOption(exep6);
+  // clickOption(exep7);
+  // clickOption(exep8);
+  // clickOption(exep9);
+  // clickOption(exep10);
+  // clickOption(exep11);
 
   spans.forEach((span) => {
     const questionText = span.innerText.trim().replace(/\s+/g, " ");
