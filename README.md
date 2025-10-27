@@ -12,7 +12,7 @@ Tiếp theo ấn **Download ZIP**
 
 ---
 
-**Bước 2:** Truy cập [chrome://extensions/]chrome://extensions/), sau đó ấn **Tải tiện ích đã giải nén** (Bật chế độ dành cho nhà phát triển nếu chưa bật)
+**Bước 2:** Truy cập vào chrome://extensions, sau đó ấn **Tải tiện ích đã giải nén** (Bật chế độ dành cho nhà phát triển nếu chưa bật)
 
 ![image](https://github.com/user-attachments/assets/6ada68f5-d9d3-4d80-9b5a-015caf181236)
 
