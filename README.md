@@ -21,7 +21,7 @@ Tiếp theo ấn **Download ZIP**
 ![image](https://github.com/user-attachments/assets/3b45485e-4d8f-4968-b8be-08e1514e7e61)
 
 ---
-**Bước 4:** Ấn vào icon **Extension** ở bên phải thanh **Search** là thấy extenion nha
+**Bước 4:** Ấn vào icon **Extension** ở bên phải thanh **Search** là thấy extension nha :D
 
 <img width="421" height="545" alt="image" src="https://github.com/user-attachments/assets/b04836cd-0e82-4fbf-bace-a782afacdeef" />
 
