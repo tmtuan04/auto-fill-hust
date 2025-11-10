@@ -14,13 +14,13 @@ const answers = {
     "Khoảng 9%."
   ],
   "Sinh viên bị xếp loại rèn luyện Yếu/Kém trong hai học kỳ liên tiếp sẽ phải đối mặt với hình thức xử lý nào?": [
-    "Bị buộc thôi học"
+    "Bị hạn chế đăng ký học tập tương đương cảnh báo học tập mức 2."
   ],
   "Chương trình đào tạo (CTĐT) mới nào được giới thiệu trong Quy chế 2025, thuộc nhóm chương trình ELITECH?": [
     "Chương trình đào tạo Tài năng"
   ],
   "Hành vi \"Tổ chức đánh bạc\" lần đầu sẽ bị xử lý như thế nào?": [
-    "Khiển trách và phải bồi thường."
+    "Buộc thôi học và chuyển cơ quan chức năng xử lý theo quy định của pháp luật."
   ],
   "Cán bộ Quản lý lớp sinh viên (QLLSV) có thể là những ai?": [
     "Cán bộ giảng dạy, cán bộ hành chính hoặc cán bộ kỹ thuật đang công tác tại đơn vị quản ngành."
@@ -32,7 +32,7 @@ const answers = {
     "Không, sinh viên đã nhận học bổng KKHT sẽ không được xét cấp học bổng Trần Đại Nghĩa"
   ],
   "Tham gia \"Sinh hoạt công dân\" do nhà trường tổ chức sẽ được ghi nhận bao nhiêu điểm rèn luyện?": [
-    "6 điểm"
+    "7 điểm"
   ],
   "Vào năm 1967, Chính phủ đã quyết định tách hai khoa nào từ Trường Đại học Bách khoa Hà Nội để thành lập các trường đại học riêng?": [
     "Khoa Xây dựng và Khoa Mỏ - Địa chất"
@@ -59,7 +59,7 @@ const answers = {
     "Buộc thôi học nếu bị đình chỉ lần thứ 2 liên tiếp do không nộp học phí"
   ],
   "Học phí của lớp học phần rút gọn được tính như thế nào?": [
-    "Bằng 150% so với lớp học phần bình thường"
+    "Bằng 50% so với lớp học phần bình thường"
   ],
   "Thay đổi quan trọng nhất tại Điều 17 về \"Chuyển chương trình đào tạo\" là gì?": [
     "Bỏ quy định \"Không cho phép chuyển CTĐT đối với sinh viên đã học từ năm thứ hai trở đi\""
@@ -83,7 +83,7 @@ const answers = {
     "Phẩm chất công dân, trách nhiệm và quan hệ với cộng đồng."
   ],
   "Khi có khiếu nại về kết quả rèn luyện, sinh viên có khoảng thời gian khiếu nại tối thiểu là bao nhiêu ngày?": [
-    "7 ngày"
+    "15 ngày"
   ],
   "Khi cần trao đổi hoặc phản ánh công việc với giáo viên, cán bộ hay các đơn vị trong Trường, sinh viên phải sử dụng loại email nào?": [
     "Email do Đại học BKHN cấp."
@@ -116,16 +116,16 @@ const answers = {
     "Tối thiểu 70%"
   ],
   "Tổ tư vấn tâm lý sinh viên, tiền thân của \"Điểm tựa yêu thương\", được thành lập chính thức vào ngày tháng năm nào?": [
-    "19/03/2019"
+    "26/03/2019"
   ],
   "\"Học phần tiên quyết\" được định nghĩa như thế nào trong Quy chế 2025?": [
     "Phải hoàn thành học phần A (với mức điểm đạt) mới được dự lớp học phần B"
   ],
   "Thông điệp chính mà Giám đốc Đại học Bách khoa Hà Nội gửi đến sinh viên trong năm học 2025-2026 là gì?": [
-    "\"Học với đam mê – Sống có trách nhiệm\""
+    "\"Sinh viên Bách khoa sẵn sàng tiến vào kỷ nguyên mới\""
   ],
   "Trong lời kêu gọi gửi đến sinh viên, Giám đốc nhấn mạnh điều gì là nền tảng cho tinh thần sáng tạo và học tập hiệu quả?": [
-    "Tự giác, kỷ luật và kiên trì"
+    "Giữ gìn sức khoẻ thể chất"
   ],
   "Theo Quy chế, hành vi nào bị cấm trong khuôn viên Đại học?": [
     "Hút thuốc, uống rượu, bia trong khuôn viên Đại học."
@@ -146,7 +146,7 @@ const answers = {
     "Tự ý viết vẽ, dán lên tường, bàn ghế trong phòng học, phòng ở ký túc xá và các khu vực khác."
   ],
   "Theo quy trình, ai là người chấm điểm rèn luyện cho sinh viên dựa trên kết quả tự đánh giá và minh chứng?": [
-    "Lớp trưởng và ban cán sự lớp."
+    "Giảng viên quản lý lớp sinh viên."
   ],
   "Khi cần giải quyết các vấn đề liên quan đến chương trình đào tạo, đăng ký học phần, lịch thi, sinh viên cần liên hệ với đơn vị nào?": [
     "Ban Đào tạo"
@@ -172,34 +172,34 @@ const answers = {
     "Phàn nàn về chính sách, cá nhân với thái độ không xây dựng."
   ],
   "Quy chế 2025 quy định có bao nhiêu đợt xét tốt nghiệp đại học trong một năm?": [
-    "4 đợt"
+    "3 đợt"
   ],
   "Học bổng Gắn kết quê hương có giá trị là bao nhiêu cho mỗi Đồ án tốt nghiệp được xét cấp?": [
-    "10 triệu đồng"
+    "5 triệu đồng"
   ],
   "Nếu GPA kỳ đánh giá cao hơn kỳ trước, sinh viên sẽ được cộng thêm bao nhiêu điểm cho sự nỗ lực trong học tập?": [
-    "4 điểm"
+    "8 điểm"
   ],
   "Sinh viên xin nghỉ học tạm thời vì lý do cá nhân (không phải ốm đau, tai nạn, quân sự) sẽ bị xét buộc thôi học nếu nghỉ quá bao nhiêu học kỳ chính?": [
-    "2 học kỳ chính"
+    "4 học kỳ chính"
   ],
   "CVHT có quyền nào sau đây để hỗ trợ sinh viên?": [
     "Đề nghị các đơn vị chức năng hỗ trợ giải quyết kịp thời các khó khăn của người học."
   ],
   "Theo Quy chế 2025, việc hạn chế khối lượng học tập đối với sinh viên bị cảnh báo học tập được áp dụng khi nào?": [
-    "Từ mức cảnh báo 2 trở lên và áp dụng cho cả năm học"
+    "Từ mức cảnh báo 2 trở lên và chỉ áp dụng tại học kỳ 1 của năm học"
   ],
   "Một trong những giải pháp được đề xuất đối với sinh viên thuộc diện cảnh báo học tập là gì?": [
     "Việc đăng ký học tập cần có sự phối hợp với cố vấn học tập."
   ],
   "Tổng điểm tối đa cho tiêu chí \"Điểm tham gia hoạt động chính trị, xã hội, văn hoá, thể thao\" (TC3) là bao nhiêu?": [
-    "25 điểm"
+    "20 điểm"
   ],
   "Ủy viên thường trực của Hội đồng khen thưởng và Hội đồng kỷ luật sinh viên là ai?": [
     "Trưởng ban Ban Công tác sinh viên."
   ],
   "Bác Hồ đã về thăm Trường Đại học Bách khoa Hà Nội bao nhiêu lần?": [
-    "2 lần"
+    "3 lần"
   ],
   "Khi học cùng lúc hai chương trình, các học phần chung giữa hai CTĐT sẽ được xử lý như thế nào cho CTĐT thứ hai?": [
     "Được công nhận và tính điểm cho cả CTĐT thứ hai"
@@ -214,7 +214,7 @@ const answers = {
     "Từ 01 học kỳ trở lên"
   ],
   "Đạt danh hiệu \"Sinh viên 5 tốt\" từ cấp Đại học trở lên sẽ được ghi nhận bao nhiêu điểm?": [
-    "6 điểm"
+    "4 điểm"
   ],
   "Chức năng chính của Ban Công tác sinh viên là gì?": [
     "Quản lý, tư vấn và hỗ trợ người học, tổ chức các hoạt động xã hội"
@@ -223,7 +223,7 @@ const answers = {
     "Điểm K (điểm học phần khi nghỉ học tạm thời)"
   ],
   "Mức điểm tối đa cho tiêu chí \"Điểm học tập\" (TC1) trong khung đánh giá là bao nhiêu?": [
-    "25 điểm"
+    "30 điểm"
   ],
   "Tổng điểm tối đa cho tiêu chí \"Điểm ý thức công dân trong quan hệ cộng đồng\" (TC4) là bao nhiêu?": [
     "25 điểm"
@@ -250,7 +250,7 @@ const answers = {
     "3.2"
   ],
   "Theo các nguồn tài liệu, ngoài việc tư vấn cho sinh viên, \"Điểm tựa yêu thương\" còn hướng đến đối tượng nào sau đây?": [
-    "Giảng viên và cán bộ trong trường"
+    "Phụ huynh và những người có liên quan"
   ],
   "Điều kiện tối thiểu để sinh viên được xét cấp Học bổng Trao đổi sinh viên là gì?": [
     "Từ năm thứ 3, CPA ≥ 3.2, ĐRL tích lũy ≥ 80"
@@ -277,7 +277,7 @@ const answers = {
     "Không có lần thi lại đối với tất cả các hình thức đào tạo"
   ],
   "Điểm rèn luyện toàn khóa của sinh viên được tính như thế nào?": [
-    "Là trung bình cộng của điểm rèn luyện tất cả các học kỳ."
+    "Là trung bình cộng của điểm rèn luyện của tối thiểu 07 học kỳ."
   ],
   "Nguyên tắc cốt lõi nào trong quản lý ngân sách được nhấn mạnh cho sinh viên?": [
     "Luôn giữ cho chi tiêu nhỏ hơn thu nhập và tiết kiệm trước khi chi tiêu."
@@ -286,13 +286,13 @@ const answers = {
     "Đăng ký học 5 tín chỉ tại học kỳ cấp học bổng"
   ],
   "Theo Bộ Quy tắc ứng xử, hành vi nào sau đây sinh viên không được phép thực hiện trong giờ học khi chưa có sự đồng ý của giáo viên?": [
-    "Lên án những hành vi làm xấu đi mối quan hệ thầy – trò"
+    "Ghi âm, ghi hình, chụp ảnh."
   ],
   "Nội dung giáo dục pháp luật đối với sinh viên tập trung vào các vấn đề nào?": [
     "Các quy chế về học tập và rèn luyện; pháp luật về phòng chống tội phạm, tệ nạn xã hội; Luật an ninh mạng; đảm bảo trật tự an toàn giao thông."
   ],
   "Sinh viên có hành vi đánh bạc lần thứ ba sẽ bị xử lý theo hình thức nào?": [
-    "Đình chỉ học tập 1 năm học."
+    "Buộc thôi học."
   ],
   "Hành vi nào sau đây sinh viên KHÔNG được làm?": [
     "Gian lận trong học tập, kiểm tra, thi cử như quay cóp, mang tài liệu không được phép vào phòng thi."
@@ -340,7 +340,7 @@ const answers = {
     "Sinh viên đang trong thời gian bị đình chỉ học tập mà vẫn tiếp tục vi phạm kỷ luật hoặc vi phạm lần đầu nhưng có tính chất và mức độ đặc biệt nghiêm trọng."
   ],
   "Một sinh viên đang bị cảnh báo học tập mức 3 sẽ được hạ xuống mức 2 nếu đáp ứng điều kiện nào?": [
-    "Có số TC không đạt trong học kỳ nhỏ hơn hoặc bằng 4"
+    "Có số TC nợ đọng từ đầu khoá từ đầu khoá nhỏ hơn hoặc bằng 24"
   ],
   "Đâu KHÔNG phải là nhiệm vụ của một Cố vấn học tập (CVHT)?": [
     "Chủ trì họp lớp đánh giá kết quả rèn luyện của sinh viên."
@@ -352,13 +352,13 @@ const answers = {
     "Xét duyệt học bổng, xét khen thưởng, xét tham gia các hoạt động giao lưu, trao đổi sinh viên quốc tế."
   ],
   "Sinh viên học cùng lúc hai chương trình phải đăng ký tốt nghiệp như thế nào?": [
-    "Đăng ký tốt nghiệp CTĐT thứ nhất trước, sau đó mới đến CTĐT thứ hai"
+    "Phải đăng ký tốt nghiệp cùng đợt cho cả hai CTĐT"
   ],
   "Sinh viên bị buộc thôi học trong trường hợp nào sau đây?": [
     "Bị cảnh báo học tập mức 3 lần thứ hai liên tiếp"
   ],
   "Kết quả đánh giá rèn luyện của sinh viên được công bố công khai bao lâu trước khi ban hành quyết định chính thức?": [
-    "7 ngày"
+    "14 ngày"
   ],
   "Sinh viên nào được tặng danh hiệu “Sinh viên tốt nghiệp thủ khoa”?": [
     "Sinh viên đạt danh hiệu “Sinh viên tốt nghiệp xuất sắc” có kết quả học tập toàn khóa cao nhất của đơn vị quản ngành và không có học phần không đạt."
@@ -391,10 +391,10 @@ const answers = {
     "3 tháng."
   ],
   "Trong trường hợp nào sinh viên có thể đề nghị rút học phần mà không phải đóng học phí cho học phần đó?": [
-    "Rút học phần trong tuần đầu tiên của học kỳ 1"
+    "Rút học phần trong 7 tuần đầu của học kỳ chính bất kỳ"
   ],
   "Sinh viên vi phạm quy chế thi từ mức cảnh cáo trở lên sẽ bị trừ bao nhiêu điểm?": [
-    "-15 điểm"
+    "-10 điểm"
   ],
   "Quy chế 2025 quy định điểm liệt đối với các học phần thông thường (không phải đồ án/khóa luận tốt nghiệp) là bao nhiêu?": [
     "Dưới 3 điểm"
@@ -427,7 +427,7 @@ const answers = {
     "Hạn chế về mặt thời gian do đây là công tác kiêm nhiệm."
   ],
   "Khối lượng học tập tối thiểu đối với chương trình Tiến sĩ (dành cho người đã tốt nghiệp Thạc sĩ) theo Quy chế 2025 là bao nhiêu?": [
-    "90 tín chỉ"
+    "106 tín chỉ"
   ],
   "Đơn vị quản ngành cần thành lập bộ phận nào để tổ chức và điều phối hoạt động tư vấn cho người học?": [
     "Ban Cố vấn học tập."
@@ -436,7 +436,7 @@ const answers = {
     "25 điểm"
   ],
   "Sinh viên đạt chứng chỉ ngoại ngữ tương đương TOEIC 600 điểm trở lên sẽ được cộng bao nhiêu điểm rèn luyện?": [
-    "4 điểm"
+    "2 điểm"
   ],
   "Theo Phụ lục về khung xử lý kỷ luật, hành vi nhờ người khác vào phòng thi để thi thay hoặc vào phòng thi thay người khác lần đầu sẽ bị xử lý như thế nào?": [
     "Buộc thôi học."
@@ -448,13 +448,13 @@ const answers = {
     "Được sử dụng học liệu, thiết bị và phương tiện phục vụ học tập, nghiên cứu khoa học theo quy định."
   ],
   "Hành vi thi hộ sẽ bị trừ bao nhiêu điểm rèn luyện?": [
-    "-50 điểm"
+    "-20 điểm"
   ],
   "Sinh viên có nhu cầu tư vấn trực tiếp có thể tìm đến Tổ tư vấn và hỗ trợ sinh viên (\"Điểm tựa yêu thương\") tại địa chỉ nào?": [
     "Phòng 101 - Nhà C1"
   ],
 
-  //đáp án pháp luật 2025.1
+  // Đáp án pháp luật 2025.1
   "Theo Luật Giáo dục Đại học 2018, trách nhiệm nào sau đây là bắt buộc đối với sinh viên?": [
     "Tôn trọng giảng viên, cán bộ và các sinh viên khác",
     "Được cung cấp đầy đủ thông tin về chương trình đào tạo và quy chế học tập"
