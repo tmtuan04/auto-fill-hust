@@ -340,7 +340,7 @@ const answers = {
     "Sinh viên đang trong thời gian bị đình chỉ học tập mà vẫn tiếp tục vi phạm kỷ luật hoặc vi phạm lần đầu nhưng có tính chất và mức độ đặc biệt nghiêm trọng."
   ],
   "Một sinh viên đang bị cảnh báo học tập mức 3 sẽ được hạ xuống mức 2 nếu đáp ứng điều kiện nào?": [
-    "Có số TC nợ đọng từ đầu khoá từ đầu khoá nhỏ hơn hoặc bằng 24"
+    "Có số TC nợ đọng từ đầu khóa nhỏ hơn hoặc bằng 24"
   ],
   "Đâu KHÔNG phải là nhiệm vụ của một Cố vấn học tập (CVHT)?": [
     "Chủ trì họp lớp đánh giá kết quả rèn luyện của sinh viên."
@@ -370,7 +370,7 @@ const answers = {
     "50% cho chi tiêu thiết yếu, 30% cho hưởng thụ, 20% cho tiết kiệm."
   ],
   "Nhà trường đã đưa ra những cam kết nào để đồng hành cùng sinh viên trong năm học mới?": [
-    "Đổi mới chương trình đào tạo, nâng cấp cơ sở vật chất, mở rộng hợp tác quốc "
+    "Đổi mới chương trình đào tạo, nâng cấp cơ sở vật chất, mở rộng hợp tác quốc tế"
   ],
   "Đại học Bách khoa Hà Nội đã vinh dự được Nhà nước trao tặng danh hiệu Anh hùng lao động trong thời kỳ đổi mới vào thời gian nào?": [
     "Tháng 8/2000"
