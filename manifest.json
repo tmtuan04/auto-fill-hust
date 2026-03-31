@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Auto Fill Form HUST",
-  "version": "2.0",
+  "version": "4.0",
   "description": "Extension to auto-fill form for HUST-ers by TMT Dep Trai",
   "icons": {
     "16": "images/icon.png",
@@ -10,7 +10,7 @@
   },
   "action": {
     "default_icon": "images/icon.png",
-    "default_title": "Auto Fill PL + QC 2024.1",
+    "default_title": "Auto Fill PL + QC 2025.2",
     "default_popup": "popup.html"
   },
   "background": {
