@@ -689,6 +689,9 @@ const answers = {
     "Sinh viên có quyền từ chối giao dịch nào?": [
         "Giao dịch lừa đảo, không rõ ràng",
     ],
+    "Sinh viên có quyền nào sau đây theo Luật Giáo dục Đại học?": [
+        "Được tôn trọng và bảo vệ danh dự, nhân phẩm",
+    ],
 };
 
 const totalQuestions = Object.keys(answers).length;
