@@ -8,7 +8,7 @@ Tiếp theo ấn **Download ZIP**
 
 ![image](https://github.com/user-attachments/assets/f0ff90f2-c080-4916-a59e-ad60cf496467)
 
-*Tải về nhớ giải nhé nha*
+*Tải về nhớ giải nén nha*
 
 ---
 **Bước 2:**
