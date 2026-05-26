@@ -19,7 +19,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://forms.office.com/*/*"
+        "https://forms.office.com/*/*",
+        "https://forms.cloud.microsoft/*/*"
       ],
       "js": ["scripts/content.js"],
       "run_at": "document_idle"
