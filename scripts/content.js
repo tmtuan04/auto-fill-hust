@@ -1,4 +1,4 @@
-// Danh sách các câu trả lời đã biết, mỗi câu có thể có nhiều đáp án đúng
+﻿// Danh sách các câu trả lời đã biết, mỗi câu có thể có nhiều đáp án đúng
 const answers = {
     "Đâu là một trong những trách nhiệm của sinh viên được quy định trong Quy chế?":
         [
@@ -694,105 +694,209 @@ const answers = {
     ],
 };
 
-const totalQuestions = Object.keys(answers).length;
-console.log(`Tổng số câu hỏi: ${totalQuestions}`);
 
-async function autoFillFormBasedOnQuestion() {
-    const inputExep = document.querySelector(
-        'textarea[placeholder="Nhập câu trả lời của bạn"], textarea[placeholder="Enter your answer"]',
-    );
-    if (inputExep) {
-        inputExep.value =
-            "Thượng tôn pháp luật là việc coi pháp luật là chuẩn mực cao nhất trong xã hội, mọi người đều bình đẳng và phải tuân thủ pháp luật, không ai được đứng trên pháp luật. Là sinh viên, để trở thành công dân tốt, chúng ta cần học tập, rèn luyện ý thức chấp hành pháp luật, tôn trọng quyền và lợi ích hợp pháp của người khác, sống trung thực, có trách nhiệm, tích cực tham gia các hoạt động vì cộng đồng và góp phần xây dựng một xã hội văn minh, công bằng, kỷ cương.";
-    } else {
-        console.error("Không tìm thấy ô nhập liệu!");
-    }
-    const spans = document.querySelectorAll(".text-format-content");
+const ESSAY_ANSWER =
+    "Thượng tôn pháp luật là việc coi pháp luật là chuẩn mực cao nhất trong xã hội, mọi người đều bình đẳng và phải tuân thủ pháp luật, không ai được đứng trên pháp luật. Là sinh viên, để trở thành công dân tốt, chúng ta cần học tập, rèn luyện ý thức chấp hành pháp luật, tôn trọng quyền và lợi ích hợp pháp của người khác, sống trung thực, có trách nhiệm, tích cực tham gia các hoạt động vì cộng đồng và góp phần xây dựng một xã hội văn minh, công bằng, kỷ cương.";
 
-    // // Bắt ngoại lệ từ form
-    // const exep1 = document.querySelector(`[value="Kết luận 121, 126 và 127 của Trung ương và Bộ Chính trị"]`);
-    // const exep2 = document.querySelector(`[value='"Diệt giặc đói, giặc dốt, giặc ngoại xâm"']`);
-    // const exep3 = document.querySelector(`[value='"Tất cả đều phải theo kế hoạch"']`);
-    // const exep4 = document.querySelector(`[value*='Trong cơ quan, tổ chức, đơn vị khu vực nhà nước và doanh nghiệp, tổ chức khu vực']`);
-    // const exep5 = document.querySelector(`[value*='Sinh viên có thể tự lập kế hoạch học tập dựa trên "Kế hoạch học tập chuẩn"']`);
-    // const exep6 = document.querySelector(`[value='Cả 3 phương án trên']`);
-    // const exep7 = document.querySelector(`[value='GPA ≥ 3,2; Điểm RL ≥ 80 ']`)
-    // const exep8 = document.querySelector(`[value*='Đảm bảo công tác sinh viên phù hợp với chủ trương của Đảng']`)
-    // const exep9 = document.querySelector(`[value='Xem xét xử lý tương đương mức cảnh báo học tập mức 2']`)
-    // const exep10 = document.querySelector(`[value='2.07']`)
-    // const exep11 = document.querySelector(`[value*='Có ý thức, trách nhiệm']`)
+const ESSAY_QUESTION_HINTS = [
+    "thượng tôn pháp luật",
+    "thuong ton phap luat",
+];
 
-    // const clickOption = (element) => {
-    //   try {
-    //     if (element) {
-    //       element.click();
-    //       console.log('Clicked the option successfully.');
-    //     } else {
-    //       console.warn('Element not found.');
-    //     }
-    //   } catch (error) {
-    //     console.error('Error occurred while clicking:', error);
-    //   }
-    // };
-
-    // clickOption(exep1);
-    // clickOption(exep2);
-    // clickOption(exep3);
-    // clickOption(exep4);
-    // clickOption(exep5);
-    // clickOption(exep6);
-    // clickOption(exep7);
-    // clickOption(exep8);
-    // clickOption(exep9);
-    // clickOption(exep10);
-    // clickOption(exep11);
-
-    spans.forEach((span) => {
-        const questionText = span.innerText.trim().replace(/\s+/g, " ");
-
-        if (answers[questionText]) {
-            const answersList = Array.isArray(answers[questionText])
-                ? answers[questionText]
-                : [answers[questionText]];
-
-            const parrentDiv = span.closest(
-                'div[data-automation-id="questionItem"]',
-            );
-
-            answersList.forEach((answer) => {
-                const answerNormalized = answer.trim();
-
-                //chỉ query trong câu hỏi, tránh trường hợp có nhiều đáp án giống nhau ở câu hỏi khác nhau
-                const optioninputs = parrentDiv.querySelectorAll(
-                    `[value*='${answerNormalized}']`,
-                ); //fix trường hợp khi answerNormalized có chứa " "
-
-                optioninputs.forEach((optioninput) => {
-                    if (
-                        !optioninput.checked &&
-                        optioninput.value.trim() == answerNormalized
-                    ) {
-                        //có 1 vài đáp án thừa dấu cách ở cuối, cần trim() trước khi so sánh
-                        optioninput.click();
-                        console.log(
-                            `Filled "${questionText}" with "${answerNormalized}"`,
-                        );
-                    }
-                });
-            });
-        }
-    });
+function normalizeText(text) {
+    return String(text || "")
+        .replace(/\u00a0/g, " ")
+        .trim()
+        .replace(/\s+/g, " ");
 }
 
-// Lắng nghe tín hiệu từ popup.js
-chrome.runtime.onMessage.addListener(async (message) => {
-    if (message.action === "fillForm") {
+function setNativeValue(el, value) {
+    const proto =
+        el instanceof HTMLTextAreaElement
+            ? window.HTMLTextAreaElement.prototype
+            : window.HTMLInputElement.prototype;
+    const descriptor = Object.getOwnPropertyDescriptor(proto, "value");
+    if (descriptor && descriptor.set) {
+        descriptor.set.call(el, value);
+    } else {
+        el.value = value;
+    }
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+    el.dispatchEvent(new Event("change", { bubbles: true }));
+    el.dispatchEvent(
+        new InputEvent("input", { bubbles: true, data: value, inputType: "insertText" }),
+    );
+}
 
-        try {
-            await autoFillFormBasedOnQuestion();
-            alert("Filled success!!");
-        } catch (error) {
-            console.error("Error filling the form:", error);
+function pageLooksLikeEssayTarget() {
+    const blobs = [
+        ...document.querySelectorAll(
+            '.text-format-content, [data-automation-id="questionItem"]',
+        ),
+    ].map((el) => normalizeText(el.innerText).toLowerCase());
+    return blobs.some((text) =>
+        ESSAY_QUESTION_HINTS.some((hint) => text.includes(hint)),
+    );
+}
+
+function tryFillEssay() {
+    if (!pageLooksLikeEssayTarget()) {
+        return { filled: false, reason: "not-target-form" };
+    }
+
+    const textarea = document.querySelector(
+        'textarea[placeholder="Nhập câu trả lời của bạn"], textarea[placeholder="Enter your answer"]',
+    );
+    if (!textarea) {
+        return { filled: false, reason: "no-textarea" };
+    }
+
+    setNativeValue(textarea, ESSAY_ANSWER);
+    return { filled: true, reason: "ok" };
+}
+
+/**
+ * Find and click option by comparing value/label text in JS
+ * (avoids CSS selector breakage with quotes/spaces).
+ */
+function clickOptionByAnswer(questionRoot, answerText) {
+    const want = normalizeText(answerText);
+    if (!want || !questionRoot) return false;
+
+    const inputs = questionRoot.querySelectorAll(
+        'input[type="radio"], input[type="checkbox"], input[value]',
+    );
+
+    for (const input of inputs) {
+        const valueText = normalizeText(input.value);
+        if (valueText && valueText === want) {
+            if (!input.checked) input.click();
+            return true;
         }
     }
+
+    for (const input of inputs) {
+        const label =
+            (input.id && document.querySelector(`label[for="${CSS.escape(input.id)}"]`)) ||
+            input.closest("label") ||
+            input.parentElement;
+        const labelText = normalizeText(label?.innerText || "");
+        if (!labelText) continue;
+        if (labelText === want || labelText.includes(want)) {
+            if (!input.checked) input.click();
+            return true;
+        }
+    }
+
+    // Last resort: click any clickable node whose text matches the answer
+    const candidates = questionRoot.querySelectorAll(
+        "label, span, div, [role='radio'], [role='checkbox']",
+    );
+    for (const node of candidates) {
+        if (node.querySelector("input")) continue; // prefer clicking the input path above
+        const text = normalizeText(node.innerText);
+        if (text === want) {
+            node.click();
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function autoFillFormBasedOnQuestion() {
+    const matched = [];
+    const failed = [];
+    const unknown = [];
+
+    const essay = tryFillEssay();
+
+    const spans = document.querySelectorAll(".text-format-content");
+    const seenQuestions = new Set();
+
+    spans.forEach((span) => {
+        const questionText = normalizeText(span.innerText);
+        if (!questionText || seenQuestions.has(questionText)) return;
+        seenQuestions.add(questionText);
+
+        const answerEntry = answers[questionText];
+        if (!answerEntry) {
+            // Only report a short sample of unknowns to keep popup readable
+            if (unknown.length < 8) unknown.push(questionText);
+            return;
+        }
+
+        const answersList = Array.isArray(answerEntry)
+            ? answerEntry
+            : [answerEntry];
+        const questionRoot = span.closest(
+            'div[data-automation-id="questionItem"]',
+        );
+        if (!questionRoot) {
+            failed.push(questionText);
+            return;
+        }
+
+        let anyClicked = false;
+        answersList.forEach((answer) => {
+            if (clickOptionByAnswer(questionRoot, answer)) {
+                anyClicked = true;
+                console.log(`Filled "${questionText}" with "${normalizeText(answer)}"`);
+            }
+        });
+
+        if (anyClicked) matched.push(questionText);
+        else failed.push(questionText);
+    });
+
+    const status =
+        matched.length > 0 || essay.filled
+            ? failed.length > 0
+                ? "partial"
+                : "ok"
+            : spans.length === 0
+              ? "error"
+              : "partial";
+
+    return {
+        status,
+        bankSize: Object.keys(answers).length,
+        questionsOnPage: seenQuestions.size,
+        matchedCount: matched.length,
+        failedCount: failed.length,
+        matched,
+        failed,
+        unknown,
+        essayFilled: essay.filled,
+        essayReason: essay.reason,
+        message:
+            spans.length === 0
+                ? "Không thấy câu hỏi trên trang. Hãy mở đúng Microsoft Forms rồi thử lại."
+                : matched.length === 0 && !essay.filled
+                  ? "Không khớp được câu nào. Form có thể đã đổi đề."
+                  : `Đã điền ${matched.length}/${seenQuestions.size} câu trên trang.`,
+    };
+}
+
+chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
+    if (message.action !== "fillForm") return false;
+
+    try {
+        const result = autoFillFormBasedOnQuestion();
+        sendResponse(result);
+    } catch (error) {
+        console.error("Error filling the form:", error);
+        sendResponse({
+            status: "error",
+            message: error instanceof Error ? error.message : "Lỗi không xác định",
+            matchedCount: 0,
+            failedCount: 0,
+            matched: [],
+            failed: [],
+            unknown: [],
+            essayFilled: false,
+        });
+    }
+
+    return false;
 });

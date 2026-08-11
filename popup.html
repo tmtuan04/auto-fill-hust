@@ -26,6 +26,34 @@
                 padding: 20px;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             }
+
+            #statusBox {
+                display: none;
+                margin-top: 12px;
+                font-size: 13px;
+                white-space: pre-wrap;
+                word-break: break-word;
+            }
+
+            #statusBox.is-ok {
+                display: block;
+            }
+
+            #statusBox.is-partial {
+                display: block;
+            }
+
+            #statusBox.is-error {
+                display: block;
+            }
+
+            #statusDetail {
+                max-height: 140px;
+                overflow: auto;
+                margin-top: 6px;
+                font-size: 12px;
+                color: #495057;
+            }
         </style>
     </head>
     <body>
@@ -35,13 +63,16 @@
             </h3>
             <p>
                 <strong>Bước 1:</strong> Truy cập vào link bài thi tại đây
-                <strong>(Giữ phím Ctrl + Bấm vào link)</strong>:
+                <strong>(giữ Ctrl + click, hoặc click — mở tab mới)</strong>:
             </p>
             <ul>
                 <li>
                     <strong>
                         Quy chế:
-                        <a href="https://forms.office.com/r/B9mky8Qu4K"
+                        <a
+                            href="https://forms.office.com/r/B9mky8Qu4K"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >Link bài thi</a
                         >
                     </strong>
@@ -49,7 +80,10 @@
                 <li>
                     <strong>
                         Quy chế bổ sung*:
-                        <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=n7jxBugHT0a0COwbRXA_MYHyGUaEfhNNu2j97QvQaYlUOFhDQUY1QlRBWUpPME5WVUQ3NlhaMUI2Ui4u&route=shorturl&fbclid=IwY2xjawSCnmhleHRuA2FlbQIxMABicmlkETFFQWF6T2Fkc21DV3l4cXhic3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqeU-NhbreKKDU5NcmHtEHnG0ZvAa7pZDZs0os4C3fG7dv694TesFLW74af6_aem_t0AZ-r467ItqaOYRNn-acA"
+                        <a
+                            href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=n7jxBugHT0a0COwbRXA_MYHyGUaEfhNNu2j97QvQaYlUOFhDQUY1QlRBWUpPME5WVUQ3NlhaMUI2Ui4u&route=shorturl"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >Link bài thi</a
                         >
                     </strong>
@@ -57,19 +91,14 @@
                 <li>
                     <strong>
                         Pháp luật:
-                        <a href="https://vnshort.com/3B1T"
-                            >Link bài thi</a>
-                        </strong
-                    >
-                </li>
-                <!-- <li>
-                    <strong>
-                        Quy chế bổ sung:
-                        <a href="https://forms.office.com/r/2vEFeByE2e"
+                        <a
+                            href="https://vnshort.com/3B1T"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             >Link bài thi</a
                         >
                     </strong>
-                </li> -->
+                </li>
             </ul>
             <p>
                 <strong>Bước 2:</strong> Sau khi truy cập vào link bài thi rồi
@@ -79,6 +108,8 @@
             <button class="btn btn-success" id="fillForm" style="width: 100%">
                 Fill Form
             </button>
+            <div id="statusBox" class="alert mb-0" role="status"></div>
+            <div id="statusDetail"></div>
         </div>
         <script src="scripts/popup.js"></script>
     </body>
