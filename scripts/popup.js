@@ -13,19 +13,8 @@ function showStatus(kind, title, detail = "") {
 
 function formatResult(result) {
   const lines = [];
-  lines.push(
-    `Khớp thành công: ${result.matchedCount ?? 0}/${result.questionsOnPage ?? 0} câu trên trang`,
-  );
-  if (result.bankSize != null) {
-    lines.push(`Ngân hàng đáp án: ${result.bankSize} câu`);
-  }
   if (result.failedCount) {
     lines.push(`Có đáp án nhưng không click được: ${result.failedCount}`);
-  }
-  if (result.essayFilled) {
-    lines.push("Đã điền câu tự luận (Thượng tôn pháp luật).");
-  } else if (result.essayReason === "not-target-form") {
-    lines.push("Bỏ qua tự luận (không thấy câu hỏi khớp).");
   }
 
   const failed = Array.isArray(result.failed) ? result.failed.slice(0, 5) : [];

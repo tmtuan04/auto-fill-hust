@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Auto Fill Form HUST",
-  "version": "4.1",
-  "description": "Extension to auto-fill form for HUST-ers by TMT Dep Trai",
+  "version": "5.0",
+  "description": "Auto fill Quy chế kỳ 2026.1 - làm bởi Từ Minh Tuân",
   "icons": {
     "16": "images/icon.png",
     "48": "images/icon.png",
@@ -10,7 +10,7 @@
   },
   "action": {
     "default_icon": "images/icon.png",
-    "default_title": "Auto Fill PL + QC 2025.2",
+    "default_title": "Auto Fill Quy chế 2026.1",
     "default_popup": "popup.html"
   },
   "content_scripts": [
